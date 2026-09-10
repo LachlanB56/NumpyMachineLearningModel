@@ -1,6 +1,6 @@
 # MNIST Classifier from Scratch
 
-A three-layer feedforward neural network written in pure NumPy — no autograd, no
+A three-layer feedforward neural network written in pure NumPy no autograd, no
 deep learning framework. `torchvision` is used only to download and unpack the
 MNIST dataset; every weight, activation, and gradient in this project is computed
 by hand.
@@ -84,7 +84,7 @@ flat tail of the sigmoid, where the derivative is near zero and nothing learns.
 ## Training
 
 - **Optimiser:** plain stochastic gradient descent
-- **Batch size:** 1 — weights update after every single image
+- **Batch size:** weights update after every single image
 - **Learning rate:** 0.1 (fixed, no schedule)
 - **Epochs:** 5
 - **Preprocessing:** pixels flattened to 784 values and divided by 255
